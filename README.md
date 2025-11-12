@@ -66,11 +66,8 @@
   <a href="https://github.com/matire4/py-slack-sender">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=py-slack-sender&theme=dracula&hide_border=false&border_radius=12" alt="py-slack-sender" />
   </a>
-  <a href="https://github.com/matire4/Marketplace">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=Marketplace&theme=dracula&hide_border=false&border_radius=12" alt="Marketplace" />
-  </a>
-  <a href="https://github.com/matire4/API">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=API&theme=dracula&hide_border=false&border_radius=12" alt="API" />
+  <a href="https://github.com/matire4/NauticAPP">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=NauticAPP&theme=dracula&hide_border=false&border_radius=12" alt="NauticAPP" />
   </a>
 </div>
 
@@ -96,8 +93,8 @@
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=matire4&theme=react-dark&hide_border=false&area=true&custom_title=Contribuciones%202025"
-    alt="Gráfico de contribuciones 2025"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=matire4&theme=react-dark&hide_border=false&area=true&custom_title=Commits%202025&custom_title_color=22c55e&line=22c55e&point=22c55e"
+    alt="Gráfico de commits 2025"
   />
 </div>
 
@@ -106,11 +103,7 @@
 - Workflow semanal que genera la animación solo con las contribuciones de **2025** usando [`Platane/snk`](https://github.com/Platane/snk).
 - Las variantes light/dark se publican en la rama `output`. Usá el botón **Run workflow** en Actions la primera vez para crear los SVG.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-light.svg" />
-  <img alt="Snake de contribuciones 2025" src="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake.svg" alt="Snake de contribuciones 2025" />
 
 ---
 
