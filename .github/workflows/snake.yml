@@ -1,33 +1,35 @@
-name: Generate snake
+name: snake-2025
+
 on:
   schedule:
-    - cron: "0 0 * * *"   # todos los días 00:00 UTC
-  workflow_dispatch:       # te deja ejecutarlo a mano
+    - cron: "15 3 * * 1" # lunes 03:15 UTC
+  workflow_dispatch:
 
 permissions:
-  contents: write          # necesario para commitear el SVG
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Ensure output dir
-        run: mkdir -p output
-
-      - name: Generate snake.svg
+      - name: Generar animaciones snake 2025
         uses: Platane/snk@v3
         with:
           github_user_name: matire4
+          calendar: 2025
           outputs: |
-            output/snake-dark.svg?palette=github-dark&color_snake=#22c55e
-            output/snake-light.svg?palette=github&color_snake=#0ea5e9
-            output/snake-ocean.gif?color_snake=#22c55e&color_dots=#d1fae5,#a7f3d0,#6ee7b7,#34d399,#10b981
+            dist/github-contribution-grid-snake-light.svg?palette=github-light
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
 
-      - name: Commit snake.svg
-        uses: EndBug/add-and-commit@v9
+      - name: Publicar en rama output
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          add: "output/snake.svg"
-          message: "chore: update snake"
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
