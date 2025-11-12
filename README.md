@@ -89,4 +89,4 @@
 <br clear="both" />
 
 <!-- Animación de contribuciones (snake) -->
-<img src="https://raw.githubusercontent.com/matire4/matire4/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/matire4/matire4/main/output/snake.svg" alt="Snake animation" />
