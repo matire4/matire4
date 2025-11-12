@@ -22,7 +22,9 @@ jobs:
         with:
           github_user_name: matire4
           outputs: |
-            output/snake.svg
+            output/snake-dark.svg?palette=github-dark&color_snake=#22c55e
+            output/snake-light.svg?palette=github&color_snake=#0ea5e9
+            output/snake-ocean.gif?color_snake=#22c55e&color_dots=#d1fae5,#a7f3d0,#6ee7b7,#34d399,#10b981
 
       - name: Commit snake.svg
         uses: EndBug/add-and-commit@v9
