@@ -27,6 +27,12 @@
 ### Toolbox
 
 <div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML5" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="CSS3" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="React" />
@@ -41,7 +47,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="MongoDB" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachecassandra/apachecassandra-original.svg" height="30" alt="Apache Cassandra" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original.svg" height="30" alt="Cassandra" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker" />
   <img width="12" />
@@ -56,44 +62,40 @@
 
 ### Proyectos destacados
 
-<div align="left">
-  <a href="https://github.com/matire4/estadias-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=estadias-app&theme=dracula&hide_border=false&border_radius=10" alt="Estadías App" />
-  </a>
-  <a href="https://github.com/matire4/TPO_IngSoft_estadias">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=TPO_IngSoft_estadias&theme=dracula&hide_border=false&border_radius=10" alt="TPO Ing. Soft - Estadías" />
-  </a>
+| Proyecto | Stack principal | Qué aporta |
+| --- | --- | --- |
+| [Estadías-App](https://github.com/matire4/estadias-app) | Next.js · Express · Neon Postgres | Plataforma para gestionar estadías de alumnos con dashboards y reporting en tiempo real. |
+| [NAKBE Analytics](https://github.com/matire4/NAKBE-S.A.) | React · Node.js · MongoDB | Automatiza KPIs comerciales y visualiza indicadores para toma de decisiones. |
+| [Automatización snake](https://github.com/matire4/matire4/tree/main/.github/workflows) | GitHub Actions · Platane/snk | Pipelines que mantienen al día la visualización de contribuciones 2025. |
+
+### Métricas 2025
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Contribuciones%202025-671-22c55e?style=for-the-badge&logo=github" alt="Contribuciones 2025" />
 </div>
 
-### Métricas
+<p align="center"><sup>Actualizá el valor de la insignia cuando quieras reflejar un nuevo total desde tu panel de GitHub.</sup></p>
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=matire4&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&locale=es&rank_icon=github&hide_border=false"
-    height="150"
-    alt="Stats de GitHub"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=matire4&locale=es&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false"
-    height="150"
-    alt="Lenguajes más usados"
-  />
-  <img
-    src="https://streak-stats.demolab.com?user=matire4&locale=es&theme=dracula&hide_border=false"
+    src="https://streak-stats.demolab.com?user=matire4&locale=es&theme=dracula&hide_border=false&date_format=j%20M%5B%20Y%5D"
     height="150"
     alt="Racha de commits"
   />
 </div>
 
+- Para extender la racha, intentá al menos un commit (o merge/pull request) por día en repos públicos o privados con email verificado.
+- Sumá acciones (issues, PRs, revisiones) en la rama por defecto o `gh-pages`; todo suma al contador diario.
+
 ### Automatizaciones & snake 2025
 
 - Workflow semanal que genera la animación solo con las contribuciones de **2025** usando [`Platane/snk`](https://github.com/Platane/snk).
-- Ambas variantes se publican en la rama `output` para servirlas desde GitHub Raw.
+- Las variantes light/dark se publican en la rama `output`. Usá el botón **Run workflow** en Actions la primera vez para crear los SVG.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-light.svg" />
-  <img alt="Snake de contribuciones 2025" src="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-light.svg" />
+  <img alt="Snake de contribuciones 2025" src="output/snake.svg" />
 </picture>
 
 ---
