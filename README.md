@@ -74,11 +74,7 @@
 ### Métricas 2025
 
 <div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=matire4&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&locale=es&rank_icon=github&hide_border=false"
-    height="150"
-    alt="Stats de GitHub"
-  />
+  <img src="https://img.shields.io/badge/Commits%20totales-677-22c55e?style=for-the-badge&logo=github" alt="Commits totales" />
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs?username=matire4&locale=es&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false"
     height="150"
@@ -91,19 +87,12 @@
   />
 </div>
 
-<div align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=matire4&theme=react-dark&hide_border=false&area=true&custom_title=Commits%202025&custom_title_color=22c55e&line=22c55e&point=22c55e"
-    alt="Gráfico de commits 2025"
-  />
-</div>
-
 ### Automatizaciones & snake 2025
 
 - Workflow semanal que genera la animación solo con las contribuciones de **2025** usando [`Platane/snk`](https://github.com/Platane/snk).
 - Las variantes light/dark se publican en la rama `output`. Usá el botón **Run workflow** en Actions la primera vez para crear los SVG.
 
-<img src="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake.svg" alt="Snake de contribuciones 2025" />
+<img src="./output/snake.svg" alt="Snake de contribuciones 2025" />
 
 ---
 
