@@ -75,11 +75,9 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Commits%20totales-677-22c55e?style=for-the-badge&logo=github" alt="Commits totales" />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=matire4&locale=es&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false"
-    height="150"
-    alt="Lenguajes más usados"
-  />
+</div>
+
+<div align="center">
   <img
     src="https://streak-stats.demolab.com?user=matire4&locale=es&theme=dracula&hide_border=false&date_format=j%20M%5B%20Y%5D"
     height="150"
@@ -87,12 +85,19 @@
   />
 </div>
 
-### Automatizaciones & snake 2025
+<div align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=matire4&locale=es&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false"
+    height="150"
+    alt="Lenguajes más usados"
+  />
+</div>
 
-- Workflow semanal que genera la animación solo con las contribuciones de **2025** usando [`Platane/snk`](https://github.com/Platane/snk).
-- Las variantes light/dark se publican en la rama `output`. Usá el botón **Run workflow** en Actions la primera vez para crear los SVG.
+### Snake 2025
 
-<img src="./output/snake.svg" alt="Snake de contribuciones 2025" />
+<div align="center">
+  <img src="./output/snake.svg" alt="Snake de contribuciones 2025" />
+</div>
 
 ---
 
