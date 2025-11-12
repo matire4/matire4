@@ -62,21 +62,31 @@
 
 ### Proyectos destacados
 
-| Proyecto | Stack principal | Qué aporta |
-| --- | --- | --- |
-| [Estadías-App](https://github.com/matire4/estadias-app) | Next.js · Express · Neon Postgres | Plataforma para gestionar estadías de alumnos con dashboards y reporting en tiempo real. |
-| [NAKBE Analytics](https://github.com/matire4/NAKBE-S.A.) | React · Node.js · MongoDB | Automatiza KPIs comerciales y visualiza indicadores para toma de decisiones. |
-| [Automatización snake](https://github.com/matire4/matire4/tree/main/.github/workflows) | GitHub Actions · Platane/snk | Pipelines que mantienen al día la visualización de contribuciones 2025. |
+<div align="left">
+  <a href="https://github.com/matire4/py-slack-sender">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=py-slack-sender&theme=dracula&hide_border=false&border_radius=12" alt="py-slack-sender" />
+  </a>
+  <a href="https://github.com/matire4/Marketplace">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=Marketplace&theme=dracula&hide_border=false&border_radius=12" alt="Marketplace" />
+  </a>
+  <a href="https://github.com/matire4/API">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=matire4&repo=API&theme=dracula&hide_border=false&border_radius=12" alt="API" />
+  </a>
+</div>
 
 ### Métricas 2025
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Contribuciones%202025-671-22c55e?style=for-the-badge&logo=github" alt="Contribuciones 2025" />
-</div>
-
-<p align="center"><sup>Actualizá el valor de la insignia cuando quieras reflejar un nuevo total desde tu panel de GitHub.</sup></p>
-
-<div align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=matire4&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&locale=es&rank_icon=github&hide_border=false"
+    height="150"
+    alt="Stats de GitHub"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=matire4&locale=es&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false"
+    height="150"
+    alt="Lenguajes más usados"
+  />
   <img
     src="https://streak-stats.demolab.com?user=matire4&locale=es&theme=dracula&hide_border=false&date_format=j%20M%5B%20Y%5D"
     height="150"
@@ -84,8 +94,12 @@
   />
 </div>
 
-- Para extender la racha, intentá al menos un commit (o merge/pull request) por día en repos públicos o privados con email verificado.
-- Sumá acciones (issues, PRs, revisiones) en la rama por defecto o `gh-pages`; todo suma al contador diario.
+<div align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=matire4&theme=react-dark&hide_border=false&area=true&custom_title=Contribuciones%202025"
+    alt="Gráfico de contribuciones 2025"
+  />
+</div>
 
 ### Automatizaciones & snake 2025
 
@@ -95,7 +109,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake-light.svg" />
-  <img alt="Snake de contribuciones 2025" src="output/snake.svg" />
+  <img alt="Snake de contribuciones 2025" src="https://raw.githubusercontent.com/matire4/matire4/output/github-contribution-grid-snake.svg" />
 </picture>
 
 ---
