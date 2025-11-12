@@ -1,0 +1,31 @@
+name: Generate snake
+on:
+  schedule:
+    - cron: "0 0 * * *"   # todos los días 00:00 UTC
+  workflow_dispatch:       # te deja ejecutarlo a mano
+
+permissions:
+  contents: write          # necesario para commitear el SVG
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure output dir
+        run: mkdir -p output
+
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: matire4
+          outputs: |
+            output/snake.svg
+
+      - name: Commit snake.svg
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "output/snake.svg"
+          message: "chore: update snake"
